@@ -1,9 +1,15 @@
 import React from "react";
+//component
+import Cell from "./Cell";
 
 const Stage: React.FC = () => {
   return (
     <>
-      <div>Stage component</div>
+      <div>
+        <Cell />
+      </div>
     </>
   );
 };
+
+export default Stage;
